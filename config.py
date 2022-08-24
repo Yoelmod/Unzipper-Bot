@@ -4,15 +4,15 @@ import os
 
 class Config(object):
     # Mandotory
-    APP_ID = int(os.environ.get("APP_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    LOGS_CHANNEL = int(os.environ.get("LOGS_CHANNEL"))
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    MONGODB_URL = os.environ.get("MONGODB_URL")
-    GOFILE_TOKEN = os.environ.get("GOFILE_TOKEN")
+    APP_ID = int(os.environ.get("10565113"))
+    API_HASH = os.environ.get("d2220b87fb12fc430dc8fcebbb03d95c")
+    BOT_TOKEN = os.environ.get("5487441303:AAFx5vMRSHZB0hUof0yg-IonqxQiDPZE2Es")
+    LOGS_CHANNEL = int(os.environ.get("-1001767895874"))
+    BOT_OWNER = int(os.environ.get("834554042"))
+    MONGODB_URL = os.environ.get("mongodb+srv://Yoelbot:<yoel123456>@cluster0.uhjrs.mongodb.net/?retryWrites=true&w=majority")
+    GOFILE_TOKEN = os.environ.get("XE8x7h0aiUBxowfylfAmSLspaxUjAs4U")
     # Optional
-    MAX_DOWNLOAD_SIZE = int(os.environ.get("MAX_DOWNLOAD_SIZE")) if os.environ.get("MAX_DOWNLOAD_SIZE") else 10737418240
+    MAX_DOWNLOAD_SIZE = int(os.environ.get("MAX_DOWNLOAD_SIZE")) if os.environ.get("MAX_DOWNLOAD_SIZE") else 999737418240
     # Constents
     DOWNLOAD_LOCATION = f"{os.path.dirname(__file__)}/NexaBots"
     TG_MAX_SIZE = 2040108421
